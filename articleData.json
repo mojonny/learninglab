@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "id": 2,
+      "title": "Title21",
+      "problem": "how to persasdsadist dataasdasdsad",
+      "solution": "idsaddk",
+      "description": "learning stuff asdasdis fun.",
+      "imageUrl": "https://images.pexels.com/photos/15975880/pexels-photo-15975880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "ad3703f2-657e-4030-b006-9874b0179b2c",
+      "title": "Test123",
+      "problem": "problemoooo",
+      "solution": "solutionnnnnnsssss",
+      "description": "oui oui",
+      "imageUrl": "https://images.pexels.com/photos/15290907/pexels-photo-15290907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}
