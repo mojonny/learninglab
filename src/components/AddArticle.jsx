@@ -35,7 +35,7 @@ const AddArticle = () => {
 		try {
 			let result = await axios.post(
 				// any call like get
-				"'https://learning-lab-json-server.vercel.app/articles/'", // your URL
+				'https://learning-lab-json-server.vercel.app/articles/', // your URL
 				newArticle
 			);
 			console.log(result.response.data);
