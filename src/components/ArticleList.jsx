@@ -9,7 +9,7 @@ const ArticleList = () => {
 	const dispatch = useDispatch();
 	const { articles } = useSelector((state) => state.articles);
 
-	const endpoint = 'http://localhost:3000/articles/';
+	const endpoint = 'https://learning-lab-json-server.vercel.app/articles/';
 	const savedArticles = useAPI(endpoint);
 
 	useEffect(() => {

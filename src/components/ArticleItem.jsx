@@ -28,7 +28,8 @@ const ArticleItem = (props) => {
 				onClick={async () => {
 					{
 						await axios.delete(
-							'http://localhost:3000/articles/' + props.article.id
+							'https://learning-lab-json-server.vercel.app/articles/' +
+								props.article.id
 						);
 					}
 

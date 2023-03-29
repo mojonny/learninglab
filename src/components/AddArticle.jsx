@@ -31,7 +31,10 @@ const AddArticle = () => {
 			imageUrl: article.imageUrl,
 		};
 		event.preventDefault();
-		await axios.post('http://localhost:3000/articles/', newArticle);
+		await axios.post(
+			'https://learning-lab-json-server.vercel.app/articles/',
+			newArticle
+		);
 		dispatch(addToArticles(newArticle));
 	};
 
