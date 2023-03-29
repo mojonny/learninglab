@@ -32,16 +32,10 @@ const AddArticle = () => {
 		};
 		event.preventDefault();
 
-		try {
-			let result = await axios.post(
-				// any call like get
-				'https://learning-lab-json-server.vercel.app/articles/', // your URL
-				newArticle
-			);
-			console.log(result.response.data);
-		} catch (error) {
-			console.error(error.response.data); // NOTE - use "error.response.data` (not "error")
-		}
+		await axios.post(
+			'https://learning-lab-json-server.vercel.app/articles/',
+			newArticle
+		);
 		dispatch(addToArticles(newArticle));
 	};
 
